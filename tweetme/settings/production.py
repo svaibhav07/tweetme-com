@@ -85,10 +85,14 @@ WSGI_APPLICATION = 'tweetme.wsgi.application'
 # https://docs.djangoproject.com/en/1.10/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+     'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'da6pe54nvdpn7s',
+        'USER': 'ocazvpqyukxnls',
+        'PASSWORD':'e5b73b8b735c057ada7128bd05c9a8fcfc20e82b4aad8bc3a6cdc38b21746c3a',
+        'HOST': 'ec2-75-101-138-26.compute-1.amazonaws.com',
+        'PORT':'5432',
+}
 }
 
 
